@@ -15,11 +15,7 @@ static_image = Image("static.png");
 NUM_FRAMES = @num_frames@;
 progress_images = [];
 for (i = 0; i < NUM_FRAMES; i++) {
-  if (i < 10)
-    frame_name = "frame_0" + i + ".png";
-  else
-    frame_name = "frame_" + i + ".png";
-  progress_images[i] = Image(frame_name);
+  progress_images[i] = Image("frame_" + i + ".png");
 }
 
 # Main logo sprite
@@ -36,7 +32,7 @@ logo_sprite.SetImage(progress_images[0]);
 # Animation state
 current_mode = "normal";
 current_frame = 0.0;
-ANIMATION_SPEED = 0.36; # ~18 FPS at 50Hz refresh rate (~2s loop)
+ANIMATION_SPEED = 1.0; # 1 frame per tick at 50-60Hz (ultra-smooth 60 FPS animation)
 
 # Refresh callback for animation
 fun refresh_callback () {
@@ -56,9 +52,9 @@ Plymouth.SetRefreshFunction(refresh_callback);
 # --- Password and Prompt Dialog Handling (e.g. LUKS disk decryption) ---
 bullet_image = Image("bullet.png");
 
-# Colored brackets [#F9A877 -> RGB(0.9765, 0.6588, 0.4667)] rendered as text on the fly
-bracket_left_image = Image.Text("[", 0.9765, 0.6588, 0.4667, 1.0, "Sans Bold 14");
-bracket_right_image = Image.Text("]", 0.9765, 0.6588, 0.4667, 1.0, "Sans Bold 14");
+# Colored curly brackets [#F9A877 -> RGB(0.9765, 0.6588, 0.4667)] rendered as text on the fly
+bracket_left_image = Image.Text("{", 0.9765, 0.6588, 0.4667, 1.0, "Sans Bold 20");
+bracket_right_image = Image.Text("}", 0.9765, 0.6588, 0.4667, 1.0, "Sans Bold 20");
 
 prompt_sprite = Sprite();
 prompt_sprite.SetZ(20);

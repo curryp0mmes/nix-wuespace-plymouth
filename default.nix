@@ -15,21 +15,19 @@ pkgs.stdenv.mkDerivation {
   buildPhase = ''
     mkdir -p assets /tmp/raw_frames
 
-    # Render animation frames headlessly from Glaxnimate vector file
+    # Render all 180 frames from Glaxnimate vector file headlessly
     QT_QPA_PLATFORM=offscreen glaxnimate wuespace_animation.rawr -r /tmp/raw_frames/f.png --frame all
 
-    # Pick every 5th frame (from 0 to 175) for a smooth 36-frame loop
+    # Copy all frames sequentially into assets
     i=0
-    for f in $(seq 0 5 175); do
-      printf -v srcname "/tmp/raw_frames/f%03d.png" $f
-      printf -v dstname "assets/frame_%02d.png" $i
-      cp "$srcname" "$dstname"
+    for f in $(ls -1 /tmp/raw_frames/f*.png | sort); do
+      cp "$f" "assets/frame_$i.png"
       i=$((i + 1))
     done
     num_frames=$i
 
     # Automatically detect animation frame size and render static SVG to match
-    frame_size=$(magick "assets/frame_00.png" -format "%wx%h" info:)
+    frame_size=$(magick "assets/frame_0.png" -format "%wx%h" info:)
     magick -background none static.svg -resize "$frame_size" assets/static.png
 
     # Create bullet dot for password prompt

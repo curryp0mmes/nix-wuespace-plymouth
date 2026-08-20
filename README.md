@@ -4,10 +4,10 @@ A custom [Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/) boot sp
 
 ## Features
 
-- **Animated Loading Splash**: Renders frames directly from `wuespace_animation.rawr` with Glaxnimate at build time (36 frames, 300x300, looped seamlessly).
+- **Animated Loading Splash**: Renders all 180 frames directly from `wuespace_animation.rawr` with Glaxnimate at build time (ultra-smooth 60 FPS loop at 300x300).
 - **Gradient Background**: Smooth vertical gradient from `#1E1E2E` (top) to `#182D4A` (bottom).
 - **Static Display for Prompts**: Automatically renders `static.svg` to match the animation resolution when waiting for user input (e.g. LUKS disk decryption passphrase).
-- **Password & Question Prompts**: Custom centered passphrase prompt with visual bullet dots enclosed in accent-colored brackets (`#F9A877`).
+- **Password & Question Prompts**: Custom centered passphrase prompt with visual bullet dots enclosed in accent-colored curly brackets `{ • • • }` (`#F9A877`).
 - **Nix Flake & Module**: Built-in NixOS module that handles Plymouth configuration and disables conflicting Stylix targets automatically.
 
 ---
