@@ -55,8 +55,10 @@ Plymouth.SetRefreshFunction(refresh_callback);
 
 # --- Password and Prompt Dialog Handling (e.g. LUKS disk decryption) ---
 bullet_image = Image("bullet.png");
-bracket_left_image = Image("bracket_left.png");
-bracket_right_image = Image("bracket_right.png");
+
+# Colored brackets [#F9A877 -> RGB(0.9765, 0.6588, 0.4667)] rendered as text on the fly
+bracket_left_image = Image.Text("[", 0.9765, 0.6588, 0.4667, 1.0, "Sans Bold 14");
+bracket_right_image = Image.Text("]", 0.9765, 0.6588, 0.4667, 1.0, "Sans Bold 14");
 
 prompt_sprite = Sprite();
 prompt_sprite.SetZ(20);

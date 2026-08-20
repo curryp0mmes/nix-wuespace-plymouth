@@ -34,10 +34,6 @@ pkgs.stdenv.mkDerivation {
 
     # Create bullet dot for password prompt
     magick -size 16x16 xc:none -fill "#ffffff" -draw "circle 8,8 8,14" assets/bullet.png
-
-    # Create colored brackets [#F9A877] for password prompt
-    magick -size 10x24 xc:none -stroke "#F9A877" -strokewidth 2 -fill none -draw "polyline 8,2 2,2 2,22 8,22" assets/bracket_left.png
-    magick -size 10x24 xc:none -stroke "#F9A877" -strokewidth 2 -fill none -draw "polyline 2,2 8,2 8,22 2,22" assets/bracket_right.png
   '';
 
   installPhase = ''
