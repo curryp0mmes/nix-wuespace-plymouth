@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Wuespace
+Description=WüSpace boot splash theme with animated loading logo
+ModuleName=script
+
+[script]
+ImageDir=@out@/share/plymouth/themes/wuespace
+ScriptFile=@out@/share/plymouth/themes/wuespace/wuespace.script
