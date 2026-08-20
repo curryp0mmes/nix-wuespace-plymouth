@@ -61,545 +61,6 @@
                                     "mask": {
                                         "__type__": "MaskSettings",
                                         "inverted": false,
-                                        "mask": "Alpha"
-                                    },
-                                    "name": "Layer Orbits",
-                                    "opacity": {
-                                        "value": 1
-                                    },
-                                    "parent": null,
-                                    "render": true,
-                                    "shapes": [
-                                        {
-                                            "__type__": "Group",
-                                            "auto_orient": false,
-                                            "group_color": "#00000000",
-                                            "locked": false,
-                                            "name": "Path 3",
-                                            "opacity": {
-                                                "value": 1
-                                            },
-                                            "shapes": [
-                                                {
-                                                    "__type__": "Fill",
-                                                    "color": {
-                                                        "value": "#000000"
-                                                    },
-                                                    "fill_rule": "NonZero",
-                                                    "group_color": "#00000000",
-                                                    "locked": false,
-                                                    "name": "Fill",
-                                                    "opacity": {
-                                                        "value": 1
-                                                    },
-                                                    "use": null,
-                                                    "uuid": "3d33862a-293b-4c4f-95b8-867cb90da5c0",
-                                                    "visible": true
-                                                },
-                                                {
-                                                    "__type__": "Stroke",
-                                                    "cap": "RoundCap",
-                                                    "color": {
-                                                        "value": "#00000000"
-                                                    },
-                                                    "group_color": "#00000000",
-                                                    "join": "RoundJoin",
-                                                    "locked": false,
-                                                    "miter_limit": 4,
-                                                    "name": "Stroke",
-                                                    "opacity": {
-                                                        "value": 1
-                                                    },
-                                                    "use": null,
-                                                    "uuid": "3273bd3f-a375-4171-aeea-df87c79a3c46",
-                                                    "visible": false,
-                                                    "width": {
-                                                        "value": 1
-                                                    }
-                                                },
-                                                {
-                                                    "__type__": "Path",
-                                                    "closed": true,
-                                                    "group_color": "#00000000",
-                                                    "locked": false,
-                                                    "name": "Path 3",
-                                                    "reversed": false,
-                                                    "shape": {
-                                                        "value": {
-                                                            "closed": true,
-                                                            "points": [
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 19.443962516629846,
-                                                                        "y": 81.64510767124769
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 9.322467045286666,
-                                                                        "y": 72.59609067891722
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 30.80235455216199,
-                                                                        "y": 91.79995907893613
-                                                                    },
-                                                                    "type": 1
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 66.57342610455166,
-                                                                        "y": 60.554732373201524
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 55.87239521161066,
-                                                                        "y": 72.20110827405759
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 77.39712542704619,
-                                                                        "y": 48.77485133101459
-                                                                    },
-                                                                    "type": 1
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 81.11133122926918,
-                                                                        "y": 18.997436570771736
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 89.77827367407545,
-                                                                        "y": 27.16974946797963
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 74.26474330558675,
-                                                                        "y": 12.541589062045322
-                                                                    },
-                                                                    "type": 1
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 53.275710814029544,
-                                                                        "y": 23.0827869250218
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 63.426638085910234,
-                                                                        "y": 16.390390754422995
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 58.85728720522504,
-                                                                        "y": 24.050101172157795
-                                                                    },
-                                                                    "type": 0
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 59.49862703733251,
-                                                                        "y": 25.56334399950377
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 61.41354612580409,
-                                                                        "y": 24.07744893631275
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 56.08507561875274,
-                                                                        "y": 28.212113459974717
-                                                                    },
-                                                                    "type": 1
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 37.94086711135167,
-                                                                        "y": 35.452950803810225
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 40.75104363747142,
-                                                                        "y": 32.790050687064436
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 36.47866143922432,
-                                                                        "y": 36.83852484829583
-                                                                    },
-                                                                    "type": 1
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 33.91091811165647,
-                                                                        "y": 39.43739186307721
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 35.125761592134715,
-                                                                        "y": 38.181954573507895
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 25.826897081185148,
-                                                                        "y": 47.791539219838725
-                                                                    },
-                                                                    "type": 1
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    "uuid": "d0fdd092-1fbd-4bb7-968c-66610f3fc508",
-                                                    "visible": true
-                                                }
-                                            ],
-                                            "transform": {
-                                                "__type__": "Transform",
-                                                "anchor_point": {
-                                                    "value": {
-                                                        "x": 43.18374996738539,
-                                                        "y": 54.7551296783528
-                                                    }
-                                                },
-                                                "position": {
-                                                    "value": {
-                                                        "x": 43.18374996738539,
-                                                        "y": 54.7551296783528
-                                                    }
-                                                },
-                                                "rotation": {
-                                                    "value": 0
-                                                },
-                                                "scale": {
-                                                    "value": {
-                                                        "x": 1,
-                                                        "y": 1
-                                                    }
-                                                }
-                                            },
-                                            "uuid": "124c67aa-17f7-4170-a14a-19e0af1f538d",
-                                            "visible": true
-                                        },
-                                        {
-                                            "__type__": "Group",
-                                            "auto_orient": false,
-                                            "group_color": "#00000000",
-                                            "locked": false,
-                                            "name": "Path 1",
-                                            "opacity": {
-                                                "value": 1
-                                            },
-                                            "shapes": [
-                                                {
-                                                    "__type__": "Trim",
-                                                    "end": {
-                                                        "value": 1
-                                                    },
-                                                    "group_color": "#00000000",
-                                                    "locked": false,
-                                                    "multiple": "Individually",
-                                                    "name": "Trim Path 1",
-                                                    "offset": {
-                                                        "keyframes": [
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 0,
-                                                                "value": 0.800000011920929
-                                                            },
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 63,
-                                                                "value": 0.800000011920929
-                                                            },
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 77,
-                                                                "value": 1
-                                                            },
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 78,
-                                                                "value": 0
-                                                            },
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 109,
-                                                                "value": 0.30000001192092896
-                                                            },
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 179,
-                                                                "value": 0.800000011920929
-                                                            }
-                                                        ]
-                                                    },
-                                                    "start": {
-                                                        "keyframes": [
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 0,
-                                                                "value": 0
-                                                            },
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 89,
-                                                                "value": 0.699999988079071
-                                                            },
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 179,
-                                                                "value": 0
-                                                            },
-                                                            {
-                                                                "after": {
-                                                                    "x": 1,
-                                                                    "y": 1
-                                                                },
-                                                                "before": {
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "time": 180,
-                                                                "value": 0
-                                                            }
-                                                        ]
-                                                    },
-                                                    "uuid": "131f266f-46d3-4d5d-a14e-c1d00a24f531",
-                                                    "visible": true
-                                                },
-                                                {
-                                                    "__type__": "Fill",
-                                                    "color": {
-                                                        "value": "#ffffff"
-                                                    },
-                                                    "fill_rule": "NonZero",
-                                                    "group_color": "#00000000",
-                                                    "locked": false,
-                                                    "name": "Fill",
-                                                    "opacity": {
-                                                        "value": 1
-                                                    },
-                                                    "use": null,
-                                                    "uuid": "e1e2b5af-7df6-4cbc-8d08-8771dc8f0ff9",
-                                                    "visible": false
-                                                },
-                                                {
-                                                    "__type__": "Stroke",
-                                                    "cap": "RoundCap",
-                                                    "color": {
-                                                        "value": "#ffffff"
-                                                    },
-                                                    "group_color": "#00000000",
-                                                    "join": "RoundJoin",
-                                                    "locked": false,
-                                                    "miter_limit": 4,
-                                                    "name": "Stroke",
-                                                    "opacity": {
-                                                        "value": 1
-                                                    },
-                                                    "use": null,
-                                                    "uuid": "bb477427-29d1-4d81-8ee9-fa9a2b666080",
-                                                    "visible": true,
-                                                    "width": {
-                                                        "value": 4
-                                                    }
-                                                },
-                                                {
-                                                    "__type__": "Path",
-                                                    "closed": true,
-                                                    "group_color": "#00000000",
-                                                    "locked": false,
-                                                    "name": "Path 1",
-                                                    "reversed": false,
-                                                    "shape": {
-                                                        "value": {
-                                                            "closed": true,
-                                                            "points": [
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 21.380380337335684,
-                                                                        "y": 80.76589150579042
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 10.868880940500901,
-                                                                        "y": 72.33721651254803
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 30.86393701799763,
-                                                                        "y": 88.37030777635233
-                                                                    },
-                                                                    "type": 1
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 67.18317446442454,
-                                                                        "y": 63.159092662565314
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 52.99037294760522,
-                                                                        "y": 77.71571740064743
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 81.2468788612604,
-                                                                        "y": 48.73487436503969
-                                                                    },
-                                                                    "type": 1
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 79.2162453616766,
-                                                                        "y": 20.100454621897125
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 88.41204257460305,
-                                                                        "y": 28.498239603134653
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 68.97283762022973,
-                                                                        "y": 10.745970861979668
-                                                                    },
-                                                                    "type": 1
-                                                                },
-                                                                {
-                                                                    "pos": {
-                                                                        "x": 32.49566646029128,
-                                                                        "y": 37.75057820430729
-                                                                    },
-                                                                    "tan_in": {
-                                                                        "x": 47.28482825949039,
-                                                                        "y": 22.280756778500887
-                                                                    },
-                                                                    "tan_out": {
-                                                                        "x": 18.161555793375218,
-                                                                        "y": 52.74440512470426
-                                                                    },
-                                                                    "type": 1
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    "uuid": "9f880b61-be08-4ca6-956e-1d921be445a0",
-                                                    "visible": true
-                                                }
-                                            ],
-                                            "transform": {
-                                                "__type__": "Transform",
-                                                "anchor_point": {
-                                                    "value": {
-                                                        "x": 49.131115688345744,
-                                                        "y": 49.33272226061001
-                                                    }
-                                                },
-                                                "position": {
-                                                    "value": {
-                                                        "x": 49.131115688345744,
-                                                        "y": 49.33272226061001
-                                                    }
-                                                },
-                                                "rotation": {
-                                                    "value": 0
-                                                },
-                                                "scale": {
-                                                    "value": {
-                                                        "x": 1,
-                                                        "y": 1
-                                                    }
-                                                }
-                                            },
-                                            "uuid": "b7128689-b8b7-4cec-88a3-719de46b7151",
-                                            "visible": true
-                                        }
-                                    ],
-                                    "transform": {
-                                        "__type__": "Transform",
-                                        "anchor_point": {
-                                            "value": {
-                                                "x": 0,
-                                                "y": 0
-                                            }
-                                        },
-                                        "position": {
-                                            "value": {
-                                                "x": 0,
-                                                "y": 0
-                                            }
-                                        },
-                                        "rotation": {
-                                            "value": 0
-                                        },
-                                        "scale": {
-                                            "value": {
-                                                "x": 1,
-                                                "y": 1
-                                            }
-                                        }
-                                    },
-                                    "uuid": "c347c1df-c8a6-420f-9048-406a6aaad7c9",
-                                    "visible": true
-                                },
-                                {
-                                    "__type__": "Layer",
-                                    "animation": {
-                                        "__type__": "AnimationContainer",
-                                        "first_frame": 0,
-                                        "last_frame": 180
-                                    },
-                                    "auto_orient": false,
-                                    "group_color": "#00000000",
-                                    "locked": false,
-                                    "mask": {
-                                        "__type__": "MaskSettings",
-                                        "inverted": false,
                                         "mask": "NoMask"
                                     },
                                     "name": "Logo",
@@ -6962,6 +6423,1618 @@
                                         }
                                     },
                                     "uuid": "6ef6c32b-4f57-4ef1-b874-e948c40f3526",
+                                    "visible": true
+                                },
+                                {
+                                    "__type__": "Layer",
+                                    "animation": {
+                                        "__type__": "AnimationContainer",
+                                        "first_frame": 0,
+                                        "last_frame": 180
+                                    },
+                                    "auto_orient": false,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "mask": {
+                                        "__type__": "MaskSettings",
+                                        "inverted": false,
+                                        "mask": "NoMask"
+                                    },
+                                    "name": "Logo 1",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "parent": null,
+                                    "render": true,
+                                    "shapes": [
+                                        {
+                                            "__type__": "Group",
+                                            "auto_orient": false,
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Group",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "shapes": [
+                                                {
+                                                    "__type__": "Layer",
+                                                    "animation": {
+                                                        "__type__": "AnimationContainer",
+                                                        "first_frame": 0,
+                                                        "last_frame": 180
+                                                    },
+                                                    "auto_orient": false,
+                                                    "group_color": "#00000000",
+                                                    "locked": false,
+                                                    "mask": {
+                                                        "__type__": "MaskSettings",
+                                                        "inverted": false,
+                                                        "mask": "Alpha"
+                                                    },
+                                                    "name": "square-white 1",
+                                                    "opacity": {
+                                                        "value": 1
+                                                    },
+                                                    "parent": null,
+                                                    "render": true,
+                                                    "shapes": [
+                                                        {
+                                                            "__type__": "Group",
+                                                            "auto_orient": false,
+                                                            "group_color": "#00000000",
+                                                            "locked": false,
+                                                            "name": "ExpandedOrbits 1",
+                                                            "opacity": {
+                                                                "value": 1
+                                                            },
+                                                            "shapes": [
+                                                                {
+                                                                    "__type__": "Group",
+                                                                    "auto_orient": false,
+                                                                    "group_color": "#00000000",
+                                                                    "locked": false,
+                                                                    "name": "Group 4",
+                                                                    "opacity": {
+                                                                        "value": 1
+                                                                    },
+                                                                    "shapes": [
+                                                                        {
+                                                                            "__type__": "Fill",
+                                                                            "color": {
+                                                                                "value": "#000000"
+                                                                            },
+                                                                            "fill_rule": "EvenOdd",
+                                                                            "group_color": "#00000000",
+                                                                            "locked": false,
+                                                                            "name": "Fill 4",
+                                                                            "opacity": {
+                                                                                "value": 1
+                                                                            },
+                                                                            "use": null,
+                                                                            "uuid": "8805ad99-8019-4d14-93af-6141a75afa9b",
+                                                                            "visible": true
+                                                                        },
+                                                                        {
+                                                                            "__type__": "Stroke",
+                                                                            "cap": "SquareCap",
+                                                                            "color": {
+                                                                                "value": "#00000000"
+                                                                            },
+                                                                            "group_color": "#00000000",
+                                                                            "join": "BevelJoin",
+                                                                            "locked": false,
+                                                                            "miter_limit": 1.5,
+                                                                            "name": "Stroke 4",
+                                                                            "opacity": {
+                                                                                "value": 1
+                                                                            },
+                                                                            "use": null,
+                                                                            "uuid": "f25f6871-1c74-4de8-a94b-c83d0ca2158c",
+                                                                            "visible": true,
+                                                                            "width": {
+                                                                                "value": 1
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "__type__": "Path",
+                                                                            "closed": true,
+                                                                            "group_color": "#00000000",
+                                                                            "locked": false,
+                                                                            "name": "Path 6",
+                                                                            "reversed": false,
+                                                                            "shape": {
+                                                                                "value": {
+                                                                                    "closed": true,
+                                                                                    "points": [
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 10710.022,
+                                                                                                "y": 7717.075
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 10710.022,
+                                                                                                "y": 7717.075
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 10710.74,
+                                                                                                "y": 7717.704
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 10709.959,
+                                                                                                "y": 7718.717
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 10710.724,
+                                                                                                "y": 7718.131
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 10709.562,
+                                                                                                "y": 7719.021
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 10709.053,
+                                                                                                "y": 7719.846
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 10709.543,
+                                                                                                "y": 7719.673
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 10708.892,
+                                                                                                "y": 7719.903
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 10682.507,
+                                                                                                "y": 7719.33
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 10684.631,
+                                                                                                "y": 7719.376
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 10333.852,
+                                                                                                "y": 7711.759
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9698.812,
+                                                                                                "y": 7601.374
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9993.096,
+                                                                                                "y": 7672.603
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9698.458,
+                                                                                                "y": 7601.289
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9635.29,
+                                                                                                "y": 7584.916
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9670.752,
+                                                                                                "y": 7594.522
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9330.725,
+                                                                                                "y": 7502.418
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9087.324,
+                                                                                                "y": 7350.708
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9167.687,
+                                                                                                "y": 7406.057
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9082.314,
+                                                                                                "y": 7347.258
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9071.397,
+                                                                                                "y": 7339.193
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9072.66,
+                                                                                                "y": 7340.126
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 8977.132,
+                                                                                                "y": 7269.558
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 8896.088,
+                                                                                                "y": 7156.206
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 8925.823,
+                                                                                                "y": 7204.775
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 8896.014,
+                                                                                                "y": 7156.085
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 8879.014,
+                                                                                                "y": 7123.908
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 8887.823,
+                                                                                                "y": 7142.371
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 8854.482,
+                                                                                                "y": 7072.492
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 8840.298,
+                                                                                                "y": 6968.827
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 8841.952,
+                                                                                                "y": 7020.484
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 8840.226,
+                                                                                                "y": 6966.582
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 8840.535,
+                                                                                                "y": 6964.35
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 8840.314,
+                                                                                                "y": 6966.586
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 8850.145,
+                                                                                                "y": 6866.865
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 8931.08,
+                                                                                                "y": 6749.352
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 8896.519,
+                                                                                                "y": 6793.754
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 8931.108,
+                                                                                                "y": 6749.315
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 8952.043,
+                                                                                                "y": 6725.995
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 8939.622,
+                                                                                                "y": 6739.115
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9003.202,
+                                                                                                "y": 6671.96
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9197.755,
+                                                                                                "y": 6549.286
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9079.123,
+                                                                                                "y": 6611.359
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9197.992,
+                                                                                                "y": 6549.162
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9249.417,
+                                                                                                "y": 6524.103
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9219.075,
+                                                                                                "y": 6538.247
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9368.019,
+                                                                                                "y": 6468.815
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9632.016,
+                                                                                                "y": 6384.074
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9501.723,
+                                                                                                "y": 6422.545
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9632.767,
+                                                                                                "y": 6383.852
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9634.269,
+                                                                                                "y": 6383.41
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9633.477,
+                                                                                                "y": 6383.362
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9635.322,
+                                                                                                "y": 6383.473
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9637.227,
+                                                                                                "y": 6384.387
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9636.216,
+                                                                                                "y": 6384.125
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9637.396,
+                                                                                                "y": 6384.43
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9637.363,
+                                                                                                "y": 6384.704
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9637.485,
+                                                                                                "y": 6384.539
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9636.795,
+                                                                                                "y": 6385.473
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9635.862,
+                                                                                                "y": 6387.114
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9636.611,
+                                                                                                "y": 6386.471
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9635.561,
+                                                                                                "y": 6387.372
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9511.636,
+                                                                                                "y": 6435.681
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9580.038,
+                                                                                                "y": 6405.847
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9368.511,
+                                                                                                "y": 6498.106
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9238.315,
+                                                                                                "y": 6594.416
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9281.393,
+                                                                                                "y": 6560.67
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9225.512,
+                                                                                                "y": 6604.445
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9123.127,
+                                                                                                "y": 6701.635
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9171.89,
+                                                                                                "y": 6644.63
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9084.311,
+                                                                                                "y": 6747.012
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9053.724,
+                                                                                                "y": 6808.28
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9064.354,
+                                                                                                "y": 6784.424
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9052.602,
+                                                                                                "y": 6810.797
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9040.119,
+                                                                                                "y": 6838.153
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9046.64,
+                                                                                                "y": 6821.765
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9019.473,
+                                                                                                "y": 6890.04
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9022.962,
+                                                                                                "y": 6966.394
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9018.376,
+                                                                                                "y": 6933.492
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9023.093,
+                                                                                                "y": 6967.331
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9023.056,
+                                                                                                "y": 6968.275
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9023.094,
+                                                                                                "y": 6967.329
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9021.016,
+                                                                                                "y": 7018.784
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9050.984,
+                                                                                                "y": 7092.137
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9035.851,
+                                                                                                "y": 7061.184
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9054.131,
+                                                                                                "y": 7098.574
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9103.38,
+                                                                                                "y": 7176.458
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9067.803,
+                                                                                                "y": 7131.709
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9137.844,
+                                                                                                "y": 7219.806
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9185.455,
+                                                                                                "y": 7260.806
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9174.409,
+                                                                                                "y": 7250.976
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9250.402,
+                                                                                                "y": 7318.606
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 9719.129,
+                                                                                                "y": 7542.555
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9404.558,
+                                                                                                "y": 7436.584
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 9748.814,
+                                                                                                "y": 7552.555
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 10011.035,
+                                                                                                "y": 7625.222
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 9853.904,
+                                                                                                "y": 7589.121
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 10224.502,
+                                                                                                "y": 7674.266
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 10707.021,
+                                                                                                "y": 7715.808
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 10459.49,
+                                                                                                "y": 7705.655
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 10707.749,
+                                                                                                "y": 7715.837
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 10709.205,
+                                                                                                "y": 7715.896
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 10708.55,
+                                                                                                "y": 7715.62
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 10709.681,
+                                                                                                "y": 7716.097
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 10710.022,
+                                                                                                "y": 7717.075
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 10709.649,
+                                                                                                "y": 7716.749
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 10710.022,
+                                                                                                "y": 7717.075
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "uuid": "3de56f07-1cd0-43df-b93c-5f76bce1f84f",
+                                                                            "visible": true
+                                                                        },
+                                                                        {
+                                                                            "__type__": "Path",
+                                                                            "closed": true,
+                                                                            "group_color": "#00000000",
+                                                                            "locked": false,
+                                                                            "name": "Path 7",
+                                                                            "reversed": false,
+                                                                            "shape": {
+                                                                                "value": {
+                                                                                    "closed": true,
+                                                                                    "points": [
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 11665.137,
+                                                                                                "y": 7649.111
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 11665.137,
+                                                                                                "y": 7649.111
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 11665.128,
+                                                                                                "y": 7649.107
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 11665.125,
+                                                                                                "y": 7649.063
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 11665.103,
+                                                                                                "y": 7649.088
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 11665.826,
+                                                                                                "y": 7648.277
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 11667.199,
+                                                                                                "y": 7646.685
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 11666.262,
+                                                                                                "y": 7647.259
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 11667.552,
+                                                                                                "y": 7646.469
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 11827.592,
+                                                                                                "y": 7609.382
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 11737.598,
+                                                                                                "y": 7633.132
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12057.228,
+                                                                                                "y": 7548.779
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12281.686,
+                                                                                                "y": 7436.268
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12206.165,
+                                                                                                "y": 7476.699
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12300.804,
+                                                                                                "y": 7426.033
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12456.116,
+                                                                                                "y": 7327.421
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12377.652,
+                                                                                                "y": 7386.443
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12536.56,
+                                                                                                "y": 7266.909
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12602.534,
+                                                                                                "y": 7184.676
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12579.882,
+                                                                                                "y": 7215.414
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12608.911,
+                                                                                                "y": 7176.023
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12659.746,
+                                                                                                "y": 7084.851
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12640.256,
+                                                                                                "y": 7137.111
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12665.509,
+                                                                                                "y": 7069.397
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12668.788,
+                                                                                                "y": 7056.318
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12667.87,
+                                                                                                "y": 7059.236
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12680.015,
+                                                                                                "y": 7020.623
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12680.004,
+                                                                                                "y": 6968.275
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12681.371,
+                                                                                                "y": 6990.561
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12679.877,
+                                                                                                "y": 6966.205
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12680.194,
+                                                                                                "y": 6959.815
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12680.086,
+                                                                                                "y": 6966.207
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12680.946,
+                                                                                                "y": 6915.707
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12657.515,
+                                                                                                "y": 6852.897
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12668.949,
+                                                                                                "y": 6878.953
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12654.928,
+                                                                                                "y": 6847.002
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12611.142,
+                                                                                                "y": 6770.317
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12643.385,
+                                                                                                "y": 6814.504
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12583.422,
+                                                                                                "y": 6732.328
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12546.909,
+                                                                                                "y": 6697.339
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12554.527,
+                                                                                                "y": 6704.965
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12455.186,
+                                                                                                "y": 6605.526
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12090.536,
+                                                                                                "y": 6425.079
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12305.506,
+                                                                                                "y": 6509.079
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12065.953,
+                                                                                                "y": 6415.473
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 11864.65,
+                                                                                                "y": 6347.923
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 11986.448,
+                                                                                                "y": 6383.357
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 11851.588,
+                                                                                                "y": 6331.983
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 11823.773,
+                                                                                                "y": 6300.846
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 11837.962,
+                                                                                                "y": 6316.284
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 11918.733,
+                                                                                                "y": 6318.815
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12113.733,
+                                                                                                "y": 6368.058
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12016.719,
+                                                                                                "y": 6340.89
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12114.033,
+                                                                                                "y": 6368.142
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12160.691,
+                                                                                                "y": 6381.99
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12134.526,
+                                                                                                "y": 6373.966
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12424.203,
+                                                                                                "y": 6462.81
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12648.141,
+                                                                                                "y": 6610.869
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12569.445,
+                                                                                                "y": 6552.108
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12648.177,
+                                                                                                "y": 6610.895
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12679.057,
+                                                                                                "y": 6635.793
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12662.108,
+                                                                                                "y": 6621.444
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12750.636,
+                                                                                                "y": 6696.392
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12814.588,
+                                                                                                "y": 6793.355
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12790.737,
+                                                                                                "y": 6751.701
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12814.688,
+                                                                                                "y": 6793.529
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12831.041,
+                                                                                                "y": 6827.371
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12822.689,
+                                                                                                "y": 6807.959
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12850.81,
+                                                                                                "y": 6873.314
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12862.738,
+                                                                                                "y": 6965.842
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12861.114,
+                                                                                                "y": 6919.699
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12862.751,
+                                                                                                "y": 6966.224
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12862.493,
+                                                                                                "y": 6973.301
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12862.899,
+                                                                                                "y": 6966.225
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12859.096,
+                                                                                                "y": 7032.492
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12830.879,
+                                                                                                "y": 7104.148
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12842.099,
+                                                                                                "y": 7078.156
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12830.865,
+                                                                                                "y": 7104.178
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12823.451,
+                                                                                                "y": 7119
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12827.809,
+                                                                                                "y": 7110.693
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12791.613,
+                                                                                                "y": 7179.7
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12714.276,
+                                                                                                "y": 7259.683
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12748.668,
+                                                                                                "y": 7226.967
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12714.078,
+                                                                                                "y": 7259.871
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12686.643,
+                                                                                                "y": 7283.792
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12702.835,
+                                                                                                "y": 7270.342
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12614.759,
+                                                                                                "y": 7343.504
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12314.9,
+                                                                                                "y": 7487.544
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12501.182,
+                                                                                                "y": 7416.532
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12314.837,
+                                                                                                "y": 7487.568
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 12255.663,
+                                                                                                "y": 7508.661
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 12290.25,
+                                                                                                "y": 7496.849
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 12035.75,
+                                                                                                "y": 7583.761
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 11668.246,
+                                                                                                "y": 7650.535
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 11806.84,
+                                                                                                "y": 7627.392
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 11666.413,
+                                                                                                "y": 7650.841
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        },
+                                                                                        {
+                                                                                            "pos": {
+                                                                                                "x": 11665.137,
+                                                                                                "y": 7649.111
+                                                                                            },
+                                                                                            "tan_in": {
+                                                                                                "x": 11666.78,
+                                                                                                "y": 7649.875
+                                                                                            },
+                                                                                            "tan_out": {
+                                                                                                "x": 11665.137,
+                                                                                                "y": 7649.111
+                                                                                            },
+                                                                                            "type": 0
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "uuid": "8a5a3035-955b-4e3e-a084-17335c3b8f1c",
+                                                                            "visible": true
+                                                                        }
+                                                                    ],
+                                                                    "transform": {
+                                                                        "__type__": "Transform",
+                                                                        "anchor_point": {
+                                                                            "value": {
+                                                                                "x": 0,
+                                                                                "y": 0
+                                                                            }
+                                                                        },
+                                                                        "position": {
+                                                                            "value": {
+                                                                                "x": 0,
+                                                                                "y": 0
+                                                                            }
+                                                                        },
+                                                                        "rotation": {
+                                                                            "value": 0
+                                                                        },
+                                                                        "scale": {
+                                                                            "value": {
+                                                                                "x": 1,
+                                                                                "y": 1
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "uuid": "87326190-ab43-4a38-8c20-2f6faf4d4c58",
+                                                                    "visible": true
+                                                                }
+                                                            ],
+                                                            "transform": {
+                                                                "__type__": "Transform",
+                                                                "anchor_point": {
+                                                                    "value": {
+                                                                        "x": 0,
+                                                                        "y": 0
+                                                                    }
+                                                                },
+                                                                "position": {
+                                                                    "value": {
+                                                                        "x": -2425.303713,
+                                                                        "y": 931.983576
+                                                                    }
+                                                                },
+                                                                "rotation": {
+                                                                    "value": -45
+                                                                },
+                                                                "scale": {
+                                                                    "value": {
+                                                                        "x": 0.21876752376556396,
+                                                                        "y": 0.2530438303947449
+                                                                    }
+                                                                }
+                                                            },
+                                                            "uuid": "f5f54799-7fa3-4772-9726-7231daf273c9",
+                                                            "visible": true
+                                                        },
+                                                        {
+                                                            "__type__": "Group",
+                                                            "auto_orient": false,
+                                                            "group_color": "#00000000",
+                                                            "locked": false,
+                                                            "name": "Path 17",
+                                                            "opacity": {
+                                                                "value": 1
+                                                            },
+                                                            "shapes": [
+                                                                {
+                                                                    "__type__": "Trim",
+                                                                    "end": {
+                                                                        "value": 1
+                                                                    },
+                                                                    "group_color": "#00000000",
+                                                                    "locked": false,
+                                                                    "multiple": "Individually",
+                                                                    "name": "Trim Path 3",
+                                                                    "offset": {
+                                                                        "keyframes": [
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 0,
+                                                                                "value": 0.800000011920929
+                                                                            },
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 63,
+                                                                                "value": 0.800000011920929
+                                                                            },
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 77,
+                                                                                "value": 1
+                                                                            },
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 78,
+                                                                                "value": 0
+                                                                            },
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 109,
+                                                                                "value": 0.30000001192092896
+                                                                            },
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 179,
+                                                                                "value": 0.800000011920929
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "start": {
+                                                                        "keyframes": [
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 0,
+                                                                                "value": 0
+                                                                            },
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 89,
+                                                                                "value": 0.699999988079071
+                                                                            },
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 179,
+                                                                                "value": 0
+                                                                            },
+                                                                            {
+                                                                                "after": {
+                                                                                    "x": 1,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "before": {
+                                                                                    "x": 0,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "time": 180,
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "uuid": "7766103c-6543-4542-81fd-8543b23ae4b3",
+                                                                    "visible": true
+                                                                },
+                                                                {
+                                                                    "__type__": "Fill",
+                                                                    "color": {
+                                                                        "value": "#000000"
+                                                                    },
+                                                                    "fill_rule": "NonZero",
+                                                                    "group_color": "#00000000",
+                                                                    "locked": false,
+                                                                    "name": "Fill",
+                                                                    "opacity": {
+                                                                        "value": 1
+                                                                    },
+                                                                    "use": null,
+                                                                    "uuid": "b564816c-548d-4121-9ecb-096c7518f9b9",
+                                                                    "visible": false
+                                                                },
+                                                                {
+                                                                    "__type__": "Stroke",
+                                                                    "cap": "RoundCap",
+                                                                    "color": {
+                                                                        "value": "#ffffff"
+                                                                    },
+                                                                    "group_color": "#00000000",
+                                                                    "join": "RoundJoin",
+                                                                    "locked": false,
+                                                                    "miter_limit": 4,
+                                                                    "name": "Stroke",
+                                                                    "opacity": {
+                                                                        "value": 1
+                                                                    },
+                                                                    "use": null,
+                                                                    "uuid": "d75f857f-2e0c-4258-901a-c5609182cb59",
+                                                                    "visible": true,
+                                                                    "width": {
+                                                                        "value": 15
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "__type__": "Path",
+                                                                    "closed": true,
+                                                                    "group_color": "#00000000",
+                                                                    "locked": false,
+                                                                    "name": "Path 17",
+                                                                    "reversed": false,
+                                                                    "shape": {
+                                                                        "value": {
+                                                                            "closed": true,
+                                                                            "points": [
+                                                                                {
+                                                                                    "pos": {
+                                                                                        "x": 64.00710478757384,
+                                                                                        "y": 240.51154527159738
+                                                                                    },
+                                                                                    "tan_in": {
+                                                                                        "x": 37.682905678365856,
+                                                                                        "y": 218.57471121650772
+                                                                                    },
+                                                                                    "tan_out": {
+                                                                                        "x": 95.0408527496092,
+                                                                                        "y": 266.3730036326426
+                                                                                    },
+                                                                                    "type": 1
+                                                                                },
+                                                                                {
+                                                                                    "pos": {
+                                                                                        "x": 204.30550621669624,
+                                                                                        "y": 181.03019538188275
+                                                                                    },
+                                                                                    "tan_in": {
+                                                                                        "x": 181.03019538188272,
+                                                                                        "y": 214.65008880994668
+                                                                                    },
+                                                                                    "tan_out": {
+                                                                                        "x": 227.58081705150977,
+                                                                                        "y": 147.41030195381882
+                                                                                    },
+                                                                                    "type": 1
+                                                                                },
+                                                                                {
+                                                                                    "pos": {
+                                                                                        "x": 237.9253996502024,
+                                                                                        "y": 59.48134992192777
+                                                                                    },
+                                                                                    "tan_in": {
+                                                                                        "x": 266.3730012292307,
+                                                                                        "y": 82.11012313011643
+                                                                                    },
+                                                                                    "tan_out": {
+                                                                                        "x": 210.3181679946996,
+                                                                                        "y": 37.521052766372726
+                                                                                    },
+                                                                                    "type": 1
+                                                                                },
+                                                                                {
+                                                                                    "pos": {
+                                                                                        "x": 97.62699822380105,
+                                                                                        "y": 115.08348134991118
+                                                                                    },
+                                                                                    "tan_in": {
+                                                                                        "x": 135.12611012974702,
+                                                                                        "y": 71.7655403650623
+                                                                                    },
+                                                                                    "tan_out": {
+                                                                                        "x": 65.63441665942408,
+                                                                                        "y": 152.0404301873822
+                                                                                    },
+                                                                                    "type": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "uuid": "602e20ed-7ac3-40a2-88b3-f980119a9aed",
+                                                                    "visible": true
+                                                                }
+                                                            ],
+                                                            "transform": {
+                                                                "__type__": "Transform",
+                                                                "anchor_point": {
+                                                                    "value": {
+                                                                        "x": 136.4122814854155,
+                                                                        "y": 154.5934538265785
+                                                                    }
+                                                                },
+                                                                "position": {
+                                                                    "value": {
+                                                                        "x": 454.74357635900776,
+                                                                        "y": 515.3704974559341
+                                                                    }
+                                                                },
+                                                                "rotation": {
+                                                                    "value": 0
+                                                                },
+                                                                "scale": {
+                                                                    "value": {
+                                                                        "x": 3.333599805831909,
+                                                                        "y": 3.334399700164795
+                                                                    }
+                                                                }
+                                                            },
+                                                            "uuid": "247147de-ceb1-43cf-8892-e96ada16b6ca",
+                                                            "visible": true
+                                                        }
+                                                    ],
+                                                    "transform": {
+                                                        "__type__": "Transform",
+                                                        "anchor_point": {
+                                                            "value": {
+                                                                "x": 0,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "position": {
+                                                            "value": {
+                                                                "x": 8983.00157,
+                                                                "y": 4533.441155
+                                                            }
+                                                        },
+                                                        "rotation": {
+                                                            "value": 0
+                                                        },
+                                                        "scale": {
+                                                            "value": {
+                                                                "x": 4.1666669845581055,
+                                                                "y": 4.1666669845581055
+                                                            }
+                                                        }
+                                                    },
+                                                    "uuid": "8587369e-0aae-4bbd-bb32-f1a966ce1838",
+                                                    "visible": true
+                                                }
+                                            ],
+                                            "transform": {
+                                                "__type__": "Transform",
+                                                "anchor_point": {
+                                                    "value": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                },
+                                                "position": {
+                                                    "value": {
+                                                        "x": -8983,
+                                                        "y": -4533
+                                                    }
+                                                },
+                                                "rotation": {
+                                                    "value": 0
+                                                },
+                                                "scale": {
+                                                    "value": {
+                                                        "x": 1,
+                                                        "y": 1
+                                                    }
+                                                }
+                                            },
+                                            "uuid": "facb1a93-d7c3-4336-92a7-99b9525893b8",
+                                            "visible": true
+                                        }
+                                    ],
+                                    "transform": {
+                                        "__type__": "Transform",
+                                        "anchor_point": {
+                                            "value": {
+                                                "x": 0,
+                                                "y": 0
+                                            }
+                                        },
+                                        "position": {
+                                            "value": {
+                                                "x": 0,
+                                                "y": 0
+                                            }
+                                        },
+                                        "rotation": {
+                                            "value": 0
+                                        },
+                                        "scale": {
+                                            "value": {
+                                                "x": 0.0239980798214674,
+                                                "y": 0.023992322385311127
+                                            }
+                                        }
+                                    },
+                                    "uuid": "bc94fd57-7958-4ef2-a685-ead1f5472dfc",
                                     "visible": true
                                 }
                             ],
