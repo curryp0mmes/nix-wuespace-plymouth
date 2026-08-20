@@ -1,6 +1,10 @@
-# WüSpace Plymouth Boot Splash Theme
+# Unofficial WüSpace Plymouth Boot Splash Theme
 
-A custom [Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/) boot splash theme for NixOS featuring the animated WüSpace loading logo and static prompt display.
+A custom [Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/) boot splash theme for NixOS featuring an animated WüSpace loading logo and static prompt display.
+
+## Animation
+
+The animation file is a .rawr file handcrafted in Glaxnimate. In the nix build script, it is automatically rendered into individual frames.
 
 ## Features
 
