@@ -32,7 +32,7 @@ logo_sprite.SetImage(progress_images[0]);
 # Animation state
 current_mode = "normal";
 current_frame = 0.0;
-ANIMATION_SPEED = 1.0; # 1 frame per tick at 50-60Hz (ultra-smooth 60 FPS animation)
+ANIMATION_SPEED = 1.8; # ~2.0s per loop at 50Hz (matching previous speed)
 
 # Refresh callback for animation
 fun refresh_callback () {
