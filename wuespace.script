@@ -1,12 +1,19 @@
 # WüSpace Plymouth Boot Theme
 # Script Plugin Implementation
 
-# Background gradient: BG1 #1E1E2E -> BG2 #182D4A
-Window.SetBackgroundTopColor(0.1176, 0.1176, 0.1804);
+# Fallback flat gradient, also covers any area background.png does not reach
+# (e.g. secondary monitors): BG1 #1E1E2E -> BG2 #182D4A
+Window.SetBackgroundTopColor(0.1177, 0.1177, 0.1804);
 Window.SetBackgroundBottomColor(0.0941, 0.1765, 0.2902);
 
 screen_width = Window.GetWidth();
 screen_height = Window.GetHeight();
+
+# Diagonal gradient background, pre-rendered in Oklab at build time and scaled
+# to this display. Sits below every other sprite (logo is Z=10, dialogs Z=20).
+background_image = Image("background.png");
+background_sprite = Sprite(background_image.Scale(screen_width, screen_height));
+background_sprite.SetPosition(0, 0, -100);
 
 # Load static image
 static_image = Image("static.png");
@@ -50,7 +57,9 @@ fun refresh_callback () {
 Plymouth.SetRefreshFunction(refresh_callback);
 
 # --- Password and Prompt Dialog Handling (e.g. LUKS disk decryption) ---
-bullet_image = Image("bullet.png");
+
+# Bullet for password input [#96E0ED -> RGB(0.588, 0.878, 0.929)], rendered as text on the fly
+bullet_image = Image.Text("•", 0.588, 0.878, 0.929, 1.0, "Sans Bold 20");
 
 # Colored curly brackets [#F9A877 -> RGB(0.9765, 0.6588, 0.4667)] rendered as text on the fly
 bracket_left_image = Image.Text("{", 0.9765, 0.6588, 0.4667, 1.0, "Sans Bold 20");

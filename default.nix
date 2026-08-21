@@ -13,25 +13,33 @@ pkgs.stdenv.mkDerivation {
   dontWrapQtApps = true;
 
   buildPhase = ''
-    mkdir -p assets /tmp/raw_frames
+    mkdir -p assets
 
     # Render all 180 frames from Glaxnimate vector file headlessly
-    QT_QPA_PLATFORM=offscreen glaxnimate wuespace_animation.rawr -r /tmp/raw_frames/f.png --frame all
+    QT_QPA_PLATFORM=offscreen glaxnimate wuespace_animation.rawr -r assets/frame_.png --frame all
 
-    # Copy all frames sequentially into assets
-    i=0
-    for f in $(ls -1 /tmp/raw_frames/f*.png | sort); do
-      cp "$f" "assets/frame_$i.png"
-      i=$((i + 1))
+    # glaxnimate zero-pads its render output (frame_000.png ...), but the
+    # Plymouth script builds frame names by concatenation, so strip the padding.
+    num_frames=0
+    for f in assets/frame_*.png; do
+      n=''${f##*/frame_}
+      t="assets/frame_$((10#''${n%.png})).png"
+      [ "$f" = "$t" ] || mv "$f" "$t"
+      num_frames=$((num_frames + 1))
     done
-    num_frames=$i
 
     # Automatically detect animation frame size and render static SVG to match
     frame_size=$(magick "assets/frame_0.png" -format "%wx%h" info:)
     magick -background none static.svg -resize "$frame_size" assets/static.png
 
-    # Create bullet dot for password prompt
-    magick -size 16x16 xc:none -fill "#ffffff" -draw "circle 8,8 8,14" assets/bullet.png
+    # Diagonal background gradient: BG1 #1E1E2E -> BG2 #182D4A, interpolated in
+    # Oklab 
+    # Rendered at 1080p; wuespace.script scales it to the real display size.
+    bg_start=$(magick xc:"#1E1E2E" -colorspace Oklab txt: | tail -1 | grep -o '#[0-9A-F]*')
+    bg_end=$(magick xc:"#182D4A" -colorspace Oklab txt: | tail -1 | grep -o '#[0-9A-F]*')
+    magick -size 1920x1080 xc: -colorspace Oklab \
+      -sparse-color barycentric "0,0 $bg_start 1919,1079 $bg_end" \
+      -colorspace sRGB -ordered-dither o8x8,256 -depth 8 assets/background.png
   '';
 
   installPhase = ''

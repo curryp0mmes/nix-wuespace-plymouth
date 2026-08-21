@@ -18,21 +18,25 @@
 
       nixosModules = {
         default = self.nixosModules.wuespace-plymouth;
-        wuespace-plymouth = { config, pkgs, lib, ... }: {
+        wuespace-plymouth = { config, options, pkgs, lib, ... }: {
           options.theme.wuespace-plymouth = {
             enable = lib.mkEnableOption "WüSpace Plymouth boot splash theme";
           };
 
-          config = lib.mkIf config.theme.wuespace-plymouth.enable {
-            # Disable Stylix's Plymouth target so Stylix does not override this theme
-            stylix.targets.plymouth.enable = lib.mkDefault false;
-
-            boot.plymouth = {
-              enable = true;
-              theme = "wuespace";
-              themePackages = [ self.packages.${pkgs.system}.default ];
-            };
-          };
+          config = lib.mkIf config.theme.wuespace-plymouth.enable (lib.mkMerge [
+            {
+              boot.plymouth = {
+                enable = true;
+                theme = "wuespace";
+                themePackages = [ self.packages.${pkgs.system}.default ];
+                extraConfig = "DeviceScale=1";
+              };
+            }
+            (lib.optionalAttrs (options ? stylix.targets.plymouth.enable) {
+              # If stylix is installed disable Stylix's Plymouth target so Stylix does not override this theme
+              stylix.targets.plymouth.enable = lib.mkDefault false;
+            })
+          ]);
         };
       };
     };
